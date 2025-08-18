@@ -1,0 +1,4 @@
+#Dockerfile5
+FROM ubuntu
+ENTRYPOINT ["echo", "Hello,"]
+CMD ["Docker!"]

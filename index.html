@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 800px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .login, .links {
+            width: 45%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .login h2 {
+            color: #388e3c;
+            text-align: center;
+        }
+        input[type="text"], input[type="password"], button {
+            width: 100%; 
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .extra-links {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .extra-links a {
+            color: #388e3c;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .extra-links a:hover {
+            text-decoration: underline;
+        }
+        .links a {
+            display: block;
+            margin: 10px 0;
+            color: #388e3c;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <h2>Member Login</h2>
+            <input type="text" placeholder="아이디 입력" />
+            <input type="password" placeholder="비밀번호 입력" />
+            <button>로그인</button>
+            <div class="extra-links">
+                <a href="#">아이디 찾기</a> |
+                <a href="#">비밀번호 찾기</a> |
+                <a href="#">회원가입</a>
+            </div>
+        </div>
+        <div class="links">
+            <a href="https://aws.amazon.com/console/" target="_blank">AWS Management Console 바로가기</a>
+            <a href="https://docs.aws.amazon.com/" target="_blank">AWS Documentation 바로가기</a>
+            <a href="https://docs.docker.com/" target="_blank">dockerdocs 바로가기</a>
+            <a href="https://kubernetes.io/docs/" target="_blank">Kubernetes Documentation 바로가기</a>
+            <a href="https://mobaxterm.mobatek.net/download-home-edition.html" target="_blank">MobaXterm 다운로드</a>
+            <a href="https://dev.mysql.com/downloads/" target="_blank">MySQL 다운로드</a>
+        </div>
+    </div>
+</body>
+</html>
+

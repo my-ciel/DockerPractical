@@ -1,0 +1,4 @@
+#Dockerfile4
+FROM ubuntu
+CMD ["echo", "Hello, Docker!"]
+

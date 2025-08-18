@@ -1,0 +1,6 @@
+#Dockerfile7
+FROM ubuntu:latest
+WORKDIR /app
+ADD myfile.tar.gz /app/
+CMD ["ls", "-l", "/app"]
+

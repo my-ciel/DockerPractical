@@ -1,0 +1,6 @@
+#Dockerfile 6
+FROM ubuntu:latest
+WORKDIR /app
+COPY myfile.tar.gz /app/
+CMD ["ls", "-l", "/app"]
+

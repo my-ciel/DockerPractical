@@ -1,0 +1,6 @@
+#Dockerfile2
+FROM ubuntu:latest
+ENV test=/home  
+WORKDIR $test    
+RUN touch mytouchfile  
+

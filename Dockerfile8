@@ -1,0 +1,7 @@
+#Dockerfile8
+FROM ubuntu:latest
+ENV my_env=my_value
+RUN mkdir /home/volume
+RUN echo test >> /home/volume/testfile
+VOLUME /home/volume
+
